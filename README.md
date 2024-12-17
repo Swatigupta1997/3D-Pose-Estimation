@@ -1,8 +1,7 @@
-# Note: This project was developed collaboratively as part of a course project. The final version was commited to GitHub by a teammate. This repository is a fork of the team's original submission.
+### Note: This project was developed collaboratively as part of a course project. The final version was commited to GitHub by a teammate. This repository is a fork of the team's original submission.
 
 # 3D-Pose-Estimation
-This repository contains all the necessary files required to implement  3-D pose estimation using GANs.
-
+This repository contains all the necessary files required to implement 3-D pose estimation using GANs.
 
 ## Overview
 This project aims to generate visually intuitive 3 Dimensional Pose estimations for humans from 2D RGB images. Most 3D pose estimation solutions require the use of 3D datasets, and a method that can convert 2D images to 3D key joint positions using only a 2D dataset requires additional algorithms and methods to accomplish the task. We achieve this by breaking down our project into three intermediate steps, namely (i) 2D key-point generation, (ii) conversion of 2D to 3D poses using Generative Adversarial Networks (GANs), and (iii) rendering the generated 3D poses for visually informative results. 
